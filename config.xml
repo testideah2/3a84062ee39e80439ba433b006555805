@@ -3,11 +3,11 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android" 
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
-        id          = "ru.4-offer.app"
+        id          = "ru.OFFER.app"
         versionCode = "10"
-        version     = "1.1.0">
+        version     = "1.2.0">
 
-    <name>ТЕСТ. 4-offer.ru</name>
+    <name>ТЕСТ. OFFER</name>
 
     <description>
         food and more
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#27D5CC" />
+    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
